@@ -216,7 +216,6 @@ void loop() {
             lcd.print("Auto  ");
             Firebase.setString(firebaseData, path + "/Che do", "Auto");
         }
-
       if (Mode == 2) 
         { 
             Manual();
